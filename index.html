@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+<body>
+    <h1 style="text-align: center;">Sign Up Form</h1>
+    <hr>
+    <br>
+    <label for="user">Name:</label>
+    <input type="text" id="user" name="user" placeholder="User Name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="useremail" placeholder="useremail" required>
+    <br><br>
+    <label for="pass">Password:</label>
+    <input type="pass" id="pass" name="password" placeholder="Password">
+    <br>
+    <label for="phn">Phone:</label>
+    <br>
+<select name="code">
+    <option value="+880">+880</option>
+    <option value="+992">+992</option>
+    <option value="+034">+034</option>
+</select>
+<input type="number" name="phone" id="phn" placeholder="123456789" required>
+<br>
+<label for="country">Country</label>
+<input list="con">
+<datalist id="con">
+    <option value="Bangladesh"></option>
+    <option value="Germany"></option>
+    <option value="USA"></option>
+</datalist>
+<br>
+Gender:
+<input type="radio" name="gender">
+<label for="gnd1">Male</label>
+<input type="radio" name="gender">
+<label for="gnd2">Female</label>
+<input type="radio" name="gender">
+<label for="gnd3">Others</label>
+<br>
+<label for="date">Date of Birth:</label>
+<input type="date" id="date" name="dob">
+<br>
+<label for="time">Time:</label>
+<input type="time" name="time" id="time">
+<br>
+<label for="color">Color:</label>
+<input type="color" name="color" id="color">
+<br>
+<label for="file">Choose photo:</label>
+<input type="file" id="file" name="fl">
+<br>
+<input type="checkbox" id="vehicle" name="vec">
+<label for="vehicle1">I have a bike.</label>
+<input type="checkbox" id="2" name="vec">
+<label for="vehicle2">I have a cycle.</label>
+<br>
+<textarea name="comment">Comment Here</textarea>
+<br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</body>
+
+</html> 
